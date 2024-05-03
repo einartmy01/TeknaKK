@@ -8,5 +8,4 @@ public class ProffessorComparator implements Comparator<Proffessor> {
     public int compare(Proffessor o1, Proffessor o2) {
         return o1.getStudents().size() - o2.getStudents().size();
     }
-    
 }
